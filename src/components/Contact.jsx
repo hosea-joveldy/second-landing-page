@@ -38,7 +38,7 @@ const Contact = () => {
             Check out my latest projects and code contributions on GitHub.
           </p>
           <a href="https://github.com/hosea-joveldy" target="_blank">
-            <button className="bg-gray-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-gray-700    transition-colors duration-200">View Repo</button>
+            <button className="bg-gray-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-gray-700 transition-colors duration-200">View Repo</button>
           </a>
         </div>
       </div>
