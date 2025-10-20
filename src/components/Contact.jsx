@@ -12,35 +12,29 @@ const Contact = () => {
       <hr className="border border-white border-dashed w-[70%] mt-[2.4rem]"/>
 
       <div className="flex items-center justify-center gap-[4rem] lg:gap-10 flex-wrap py-6 px-10 mt-[4.6rem]">
-        <a href="https://www.instagram.com/hoseaa_pp/">
-          <div className="bg-gray-800 py-6 px-10 flex flex-col items-center text-center rounded-xl font-[Inter]">
-            <img src={instagram} alt="Instagram" className="w-[7rem]" />
-            <p className="w-[15rem] mt-[4rem]">
-              Follow me on Instagram for my latest work, updates, and behind-the-scenes moments.
-            </p>
-            <button className="bg-blue-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-blue-700 transition-colors duration-200">Follow</button>
-          </div>
-        </a>
+        <div className="bg-gray-800 py-6 px-10 flex flex-col items-center text-center rounded-xl font-[Inter]">
+          <img src={instagram} alt="Instagram" className="w-[7rem]" />
+          <p className="w-[15rem] mt-[4rem]">
+            Follow me on Instagram for my latest work, updates, and behind-the-scenes moments.
+          </p>
+          <button className="bg-blue-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-blue-700 transition-colors duration-200"><a href="https://www.instagram.com/hoseaa_pp/">Follow</a></button>
+        </div>
 
-        <a href="https://wa.me/081223956015">
-          <div className="bg-gray-800 py-6 px-10 flex flex-col items-center text-center rounded-xl font-[Inter]">
-            <img src={whatsapp} alt="Whatsapp" className="w-[7rem]" />
-            <p className="w-[15rem] mt-[4rem]">
-              Chat with me directly on WhatsApp — I'd love to hear from you.
-            </p>
-            <button className="bg-green-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-green-700 transition-colors duration-200">Message</button>
-          </div>
-        </a>
+        <div className="bg-gray-800 py-6 px-10 flex flex-col items-center text-center rounded-xl font-[Inter]">
+          <img src={whatsapp} alt="Whatsapp" className="w-[7rem]" />
+          <p className="w-[15rem] mt-[4rem]">
+            Chat with me directly on WhatsApp — I'd love to hear from you.
+          </p>
+          <button className="bg-green-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-green-700 transition-colors duration-200"><a href="https://wa.me/081223956015">Message</a></button>
+        </div>
 
-        <a className="https://github.com/hosea-joveldy">
-          <div className="bg-gray-800 py-6 px-10 flex flex-col items-center text-center rounded-xl font-[Inter]">
-            <img src={github} alt="Github" className="w-[7rem]" />
-            <p className="w-[15rem] mt-[4rem]">
-              Check out my latest projects and code contributions on GitHub.
-            </p>
-            <button className="bg-gray-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-gray-700 transition-colors duration-200">View Repo</button>
-          </div>
-        </a>
+        <div className="bg-gray-800 py-6 px-10 flex flex-col items-center text-center rounded-xl font-[Inter]">
+          <img src={github} alt="Github" className="w-[7rem]" />
+          <p className="w-[15rem] mt-[4rem]">
+            Check out my latest projects and code contributions on GitHub.
+          </p>
+          <button className="bg-gray-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-gray-700 transition-colors duration-200"><a href="https://github.com/hosea-joveldy">View Repo</a></button>
+        </div>
       </div>
 
     </div>
