@@ -17,7 +17,9 @@ const Contact = () => {
           <p className="w-[15rem] mt-[4rem]">
             Follow me on Instagram for my latest work, updates, and behind-the-scenes moments.
           </p>
-          <button className="bg-blue-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-blue-700 transition-colors duration-200"><a href="https://www.instagram.com/hoseaa_pp/">Follow</a></button>
+          <a href="https://www.instagram.com/hoseaa_pp/">
+            <button className="bg-blue-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-blue-700 transition-colors duration-200">Follow</button>
+          </a>
         </div>
 
         <div className="bg-gray-800 py-6 px-10 flex flex-col items-center text-center rounded-xl font-[Inter]">
@@ -25,7 +27,9 @@ const Contact = () => {
           <p className="w-[15rem] mt-[4rem]">
             Chat with me directly on WhatsApp — I'd love to hear from you.
           </p>
-          <button className="bg-green-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-green-700 transition-colors duration-200"><a href="https://wa.me/081223956015">Message</a></button>
+          <a href="https://wa.me/081223956015">
+            <button className="bg-green-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-green-700 transition-colors duration-200">Message</button>
+          </a>
         </div>
 
         <div className="bg-gray-800 py-6 px-10 flex flex-col items-center text-center rounded-xl font-[Inter]">
@@ -33,7 +37,9 @@ const Contact = () => {
           <p className="w-[15rem] mt-[4rem]">
             Check out my latest projects and code contributions on GitHub.
           </p>
-          <button className="bg-gray-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-gray-700 transition-colors duration-200"><a href="https://github.com/hosea-joveldy">View Repo</a></button>
+          <a href="https://github.com/hosea-joveldy">
+            <button className="bg-gray-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-gray-700    transition-colors duration-200">View Repo</button>
+          </a>
         </div>
       </div>
 
