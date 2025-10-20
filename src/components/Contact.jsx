@@ -17,7 +17,7 @@ const Contact = () => {
           <p className="w-[15rem] mt-[4rem]">
             Follow me on Instagram for my latest work, updates, and behind-the-scenes moments.
           </p>
-          <a href="https://www.instagram.com/hoseaa_pp/">
+          <a href="https://www.instagram.com/hoseaa_pp/" target="_blank">
             <button className="bg-blue-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-blue-700 transition-colors duration-200">Follow</button>
           </a>
         </div>
@@ -27,7 +27,7 @@ const Contact = () => {
           <p className="w-[15rem] mt-[4rem]">
             Chat with me directly on WhatsApp — I'd love to hear from you.
           </p>
-          <a href="https://wa.me/081223956015">
+          <a href="https://wa.me/081223956015" target="_blank">
             <button className="bg-green-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-green-700 transition-colors duration-200">Message</button>
           </a>
         </div>
@@ -37,7 +37,7 @@ const Contact = () => {
           <p className="w-[15rem] mt-[4rem]">
             Check out my latest projects and code contributions on GitHub.
           </p>
-          <a href="https://github.com/hosea-joveldy">
+          <a href="https://github.com/hosea-joveldy" target="_blank">
             <button className="bg-gray-600 py-3 px-8 font-semibold mt-[1rem] hover:bg-gray-700    transition-colors duration-200">View Repo</button>
           </a>
         </div>
